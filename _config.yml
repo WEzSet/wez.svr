@@ -4,6 +4,8 @@ url: https://wezset.github.io/wez.svr/
 author: wezset
 google_analytics: UA-218058024-1
 
+markdown: kramdown
+
 plugins:
   - jekyll-feed
   - jekyll-polyglot
