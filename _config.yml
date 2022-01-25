@@ -1,0 +1,30 @@
+title: wez.svr
+description: e
+url: https://wezset.github.io/wez.svr/
+author: wezset
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-polyglot
+  - jekyll-seo-tag
+
+# pagination
+permalink: /:year/:month/
+pagination:
+  enabled: true
+  per_page: 12
+  sort_reverse: true
+  limit: 0
+  sort_field: 'date'
+  permalink: '/page/:num/'
+  title: ':title'
+  trail:
+    before: 2
+    after: 2
+
+# multilang
+languages: ['ja', 'ko', 'en']
+default_lang: 'ja'
+exclude_from_localization: ['javascript', 'images', 'css']
+parallel_localization: false
